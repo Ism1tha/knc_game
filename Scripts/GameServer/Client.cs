@@ -168,7 +168,7 @@ public class Client : MonoBehaviour
         }
     }
 
-    //Con el PacketHandler asociamos el primer integro de un paquete al tipo de paquete para ser leido, todo esto mediante este diccionario.
+    //Con el PacketHandler asociamos el primer entero de un paquete al tipo de paquete para ser leido, todo esto mediante este diccionario.
     private void InitializeClientData()
     {
         packetHandlers = new Dictionary<int, PacketHandler>()
